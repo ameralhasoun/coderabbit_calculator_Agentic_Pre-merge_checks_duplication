@@ -1,0 +1,6 @@
+reviews:
+  pre_merge_checks:
+    custom_checks:
+      - name: "Code Duplication"
+        mode: "error"
+        instructions: "Avoid duplicated code. Shared or repeated logic should be extracted into reusable methods, helpers, or services."
